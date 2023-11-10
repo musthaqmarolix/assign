@@ -123,21 +123,28 @@
 # Student.r=7000
 
 
-class Student:
-    a=800
-    def __init__(self):
-        Student.b=400
-    def m1(self):
-        Student.c=500
-    @classmethod
-    def m2(cls):
-        Student.d=600
-        cls.e=1000
+# class Student:
+#     a=800
+#     def __init__(self):
+#         Student.b=400
+#     def m1(self):
+#         Student.c=500
+#     @classmethod
+#     def m2(cls):
+#         Student.d=600
+#         cls.e=1000
 
-    @staticmethod 
-    def m3():
-        Student.f=2000
+#     @staticmethod 
+#     def m3():
+#         Student.f=2000
 
-t=Student()
-Student.m1()
-print(Student.__dict__)
+# t=Student()
+# Student.m1()
+# print(Student.__dict__)
+
+
+class emp:
+    def __int__(self):
+        pass
+    def m1():
+        print("hello")
